@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SongBuddy</string>
+    <string name="playlists">Playlists</string>
+    <string name="songsButton">Songs</string>
+    <string name="playlistsButton">Playlists</string>
+    <string name="search_by_genre_and_name"><![CDATA[Search by Genre & Name]]></string>
+    <string name="search_by_name">Search by Name</string>
+
+
+    <string name="enter_name">Name</string>
+    <string name="enter_artist">Artist</string>
+    <string name="enter_duration">Duration</string>
+    <string name="enter_rate">Rate</string>
+    <string name="enter_genre">Genre</string>
+    <string name="enter_description">Description</string>
+    <string name="enter_link">Link</string>
+    <string name="enter_playlist_name">Playlist Name</string>
+    <string name="Welcome1">Welcome To SongBuddy! Enjoy your time!</string>
+</resources>

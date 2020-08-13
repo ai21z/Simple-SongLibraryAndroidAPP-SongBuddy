@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#232B55</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#232B55</color>
+
+    <color name="colorLinkBlue">#1a73e8</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBorder">#d0ced0</color>
+
+
+    <color name="colorStartButton">#2338AE</color>
+    <color name="colorEndButton">#D1A35E</color>
+<!--    <color name="colorStartBack">#EA769E</color>-->
+<!--    <color name="colorEndback">#DD1458</color>-->
+    <color name="colorStartBack">#000000</color>
+    <color name="colorEndback">#000000</color>
+    <color name="colorPurple">#8853E6</color>
+
+    <color name="colorItem">#86CFE1</color>
+    <color name="colorDialog">#8DB0B8</color>
+
+
+
+
+</resources>

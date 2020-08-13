@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    card_view:cardElevation="2dp"
+    card_view:cardUseCompatPadding="true"
+    android:id="@+id/playlistCard"
+    android:onClick="goToViewSongsInPlaylists">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorItem"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/playlist_avatar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            tools:srcCompat="@tools:sample/avatars[8]" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/playlist_name"
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:ellipsize="none"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                tools:text="Playlist Name" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/edit_playlist"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/edit" />
+
+        <ImageView
+            android:id="@+id/delete_playlist"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:src="@drawable/delete" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

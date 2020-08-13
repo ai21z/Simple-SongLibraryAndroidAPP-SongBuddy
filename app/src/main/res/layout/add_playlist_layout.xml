@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="12dp"
+    android:orientation="vertical"
+    android:background="@color/colorDialog">
+
+    <EditText
+        android:id="@+id/enter_playlist_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_playlist_name"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="12dp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/colorBlack"
+        android:padding="12dp"/>
+    <ImageView
+        android:id="@+id/enter_playlist_img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/colorBorder"
+        tools:srcCompat="@tools:sample/avatars[8]" />
+
+    <Button
+        android:id="@+id/btn_select_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Browse an image..." />
+</LinearLayout>
